@@ -1,0 +1,16 @@
+#!/bin/bash
+#
+# Author         : Emertxe (http://www.emertxe.com) 
+# Date           : Tue 16 Feb 2016 16:27:07 IST
+# File           : ls_005_ch6_if_else.sh
+# Title          : Test construct - if else
+# Description    : A script to show usage of if else condition
+#
+
+NUM1=2 # Variable assignment
+NUM2=5
+
+if [ $NUM1 -lt $NUM2 ]  # -lt is to test integer numbers
+then
+    echo "NUM1 < NUM2" else echo "NUM1 > NUM2"
+fi
